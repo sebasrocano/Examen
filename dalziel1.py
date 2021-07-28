@@ -11,7 +11,7 @@ with open('../data/Dalziel2016_dat.csv', 'r') as f:
         citypop[mycity][0] = citypop[mycity][0] + pop
         citypop[mycity][1] = citypop[mycity][1] + cases
         
-# Se creó la función avgcity 
+# Se creó la función avgcity en GitHub 
      
 def avgcity(city):  
     for city in citypop.keys():
