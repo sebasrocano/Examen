@@ -43,7 +43,7 @@ for city in cityyear.keys():
 years = list(cityyear['BALTIMORE'].keys())
 years.sort()
 
-# Se creó el archivo avgyear
+# Se integró la función avgyear
 
 def avgyear(years1):  
     for year in years:
@@ -74,7 +74,7 @@ for city in cityyear.keys():
 years = list(cityyear['CHICAGO'].keys())
 years.sort()
 
-# Se creó la función avgbiweek
+# Se integró la funcion avgbiweek
 
 def avgbiweek(biweeks1):  
     for year in years:
